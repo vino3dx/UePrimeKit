@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 18,
+	"VersionName": "4.5.1",
+	"FriendlyName": "Super Tool",
+	"Description": "is a versatile utility plugin for Unreal Engine. It supports UDP send/receive, external file loading (TXT, images, INI) after packaging, and runtime window positioning and resizing. Simple, powerful, and easy to use.",
+	"Category": "Vino Studio",
+	"CreatedBy": "Vino",
+	"CreatedByURL": "https://vinofx.com",
+	"DocsURL": "https://exclusive-hugger-d24.notion.site/Plugin-Super-Tool-1c3e83383f2380e0a803dc73cbeed6b5",
+	"MarketplaceURL": "https://fab.com/s/8cc2582d9a39",
+	"SupportURL": "https://vinofx.com/html/about-me",
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "SuperTool",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false
+}

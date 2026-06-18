@@ -1,0 +1,43 @@
+# ====================================================================
+# 虚幻引擎 (Unreal Engine) 官方推荐忽略文件
+# 适用于 UE5 C++ 项目及自定义插件开发
+# ====================================================================
+
+# 1. 忽略项目根目录及插件目录下的临时构建和缓存文件夹
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+.idea/
+.vscode/
+
+# 2. 深度忽略：确保所有子文件夹（如 Plugins）内部的缓存也被忽略
+**/Binaries/
+**/Build/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+
+# 3. 忽略 Visual Studio 自动生成的临时文件与解决方案
+.vs/
+*.sln
+*.suo
+*.opensln
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# 4. 忽略编译日志和崩溃报告
+*.log
+CrashReportClient/
+
+# 5. 忽略打包出来的成品文件夹 (如果你在项目根目录打包)
+/Builds/
+/ArchivedBuilds/
+
+# 6. 忽略系统产生的垃圾文件
+.DS_Store
+Thumbs.db
